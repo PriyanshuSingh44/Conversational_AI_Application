@@ -31,11 +31,18 @@ while  True:
     if  user.lower() == 'exit':
         break
 
-    prompt =  [SystemMessage(f"""
-    previous conversation:{memory}
-    You are an AI assistance  your  job is  to help  users  with thier query  and assist in thier task.
-    """),
-    HumanMessage(content=user)
+    prompt = [
+        SystemMessage(
+            content=(
+                f"Previous conversation:\n{memory}\n\n"
+                "You are a helpful AI assistant. "
+                "Your job is to answer the user's questions clearly and helpfully. "
+                "Use the previous conversation when it is relevant to the current request. "
+                "If the context is empty or unrelated, respond naturally. "
+                "Be concise, accurate, and friendly."
+            )
+        ),
+        HumanMessage(content=user)
     ]
 
     #  Genrate response
