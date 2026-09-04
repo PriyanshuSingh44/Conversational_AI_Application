@@ -20,9 +20,9 @@ A conversational AI chatbot built using **Python**, **LangChain**, and the **Gro
 ## 📂 Project Structure
 
 ```
-Simple_chatbot/
+Conversational_AI/
 │
-├── chatbot.py          # Main chatbot application
+├── app.py              # Main chatbot application
 ├── .env_sample         # Sample of .env file 
 ├── requirements.txt    # Project dependencies
 ├── .gitignore
@@ -34,8 +34,8 @@ Simple_chatbot/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/PriyanshuSingh44/Simple_chatbot.git
-cd Simple_chatbot
+git clone https://github.com/PriyanshuSingh44/Conversational_AI_Application.git
+cd Conversational_AI
 ```
 
 ### 2. Create a virtual environment (Optional)
