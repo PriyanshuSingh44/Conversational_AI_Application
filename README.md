@@ -1,4 +1,4 @@
-# 🤖 Chatbot using LangChain & Groq API
+# 🤖 Conversational AI Application using LangChain & Groq API
 
 A conversational AI chatbot built using **Python**, **LangChain**, and the **Groq API**. This project demonstrates the fundamentals of integrating Large Language Models (LLMs) into a Python application, managing conversation history, and building interactive AI assistants.
 
